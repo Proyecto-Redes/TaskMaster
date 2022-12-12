@@ -10,20 +10,22 @@ import { CompletedTaskI, TaskI } from '../Models/Tasks';
 })
 export class ServerService {
 
-  DATABASE = 'http://localhost:8080/proyecto-redes/create-db';
-  URL_REGISTRO = 'http://localhost:8080/proyecto-redes/create-user';
-  URL_UBICACION = 'http://localhost:8080/proyecto-redes/create-ubicacion';
-  URL_AUTHUSER = 'http://localhost:8080/proyecto-redes/valid-user';
-  URL_USERDATA = 'http://localhost:8080/proyecto-redes/get-user/';
-  URL_USERSETTINGS = 'http://localhost:8080/proyecto-redes/get-ubicacion/';
-  URL_EDITSETTINGS = 'http://localhost:8080/proyecto-redes/edit-ubicacion';
-  URL_QUOTE = 'http://localhost:8080/proyecto-redes/save-quote';
-  URL_QUOTES = 'http://localhost:8080/proyecto-redes/get-quotes/';
-  URL_DELETEQUOTE = 'http://localhost:8080/proyecto-redes/delete-quote';
-  URL_TASKS = 'http://localhost:8080/proyecto-redes/create-task';
-  URL_GETTASKS = 'http://localhost:8080/proyecto-redes/get-pendingTasks/';
-  URL_GETCOMPLETEDTASKS = 'http://localhost:8080/proyecto-redes/get-completedTasks/';
-  URL_CHAGESTATUS = 'http://localhost:8080/proyecto-redes/edit-task';
+  IP = '192.168.0.211:8080';
+
+  DATABASE = `http://${this.IP}/proyecto-redes/create-db`;
+  URL_REGISTRO = `http://${this.IP}/proyecto-redes/create-user`;
+  URL_UBICACION = `http://${this.IP}/proyecto-redes/create-ubicacion`;
+  URL_AUTHUSER = `http://${this.IP}/proyecto-redes/valid-user`;
+  URL_USERDATA = `http://${this.IP}/proyecto-redes/get-user/`;
+  URL_USERSETTINGS = `http://${this.IP}/proyecto-redes/get-ubicacion/`;
+  URL_EDITSETTINGS = `http://${this.IP}/proyecto-redes/edit-ubicacion`;
+  URL_QUOTE = `http://${this.IP}/proyecto-redes/save-quote`;
+  URL_QUOTES = `http://${this.IP}/proyecto-redes/get-quotes/`;
+  URL_DELETEQUOTE = `http://${this.IP}/proyecto-redes/delete-quote`;
+  URL_TASKS = `http://${this.IP}/proyecto-redes/create-task`;
+  URL_GETTASKS = `http://${this.IP}/proyecto-redes/get-pendingTasks/`;
+  URL_GETCOMPLETEDTASKS = `http://${this.IP}/proyecto-redes/get-completedTasks/`;
+  URL_CHAGESTATUS = `http://${this.IP}/proyecto-redes/edit-task`;
 
   user: UserI = {
     Alias: '',
