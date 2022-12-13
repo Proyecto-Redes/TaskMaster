@@ -296,7 +296,6 @@
 /* *********************** */
 @media (min-width: 350px) {
     #container {
-        border: 3px solid red;
         margin-top: 40%;
         margin-left: 8%;
         width: 95vw;
