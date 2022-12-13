@@ -101,7 +101,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     if (sessionStorage.getItem('ACCESS_TOKEN') !== null) {
       this.getUserData();
-      // this.obtenerFraseCelebre();
+      this.obtenerFraseCelebre();
     } else {
       this.logOut();
       this.router.navigate(['login']);
