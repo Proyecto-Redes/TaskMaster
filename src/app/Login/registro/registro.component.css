@@ -294,32 +294,56 @@
 }
 
 /* *********************** */
-@media (max-width: 550px) {
+@media (min-width: 350px) {
     #container {
-        margin-top: 50%;
-        width: 100vw;
+        border: 3px solid red;
+        margin-top: 40%;
+        margin-left: 8%;
+        width: 95vw;
+        font-size: smaller;
     }
 
-    #logo-1 {
-        top: 10%;
-        left: 12%;
-        font-size: 55px;
+    #consulta {
+        padding: 0;
+        font-size:medium;
     }
-}
 
-@media (min-width: 550px) {
-    #container {
-        margin-top: 27%;
-        width: 90vw;
+    #login {
+        margin-left: 0.2rem;
     }
 
     #logo-1 {
         top: 5%;
-        left: 12%;
+        left: 6%;
+        font-size: 40px;
+    }
+} 
+@media (min-width: 400px) {
+    #container {
+        margin-top: 55%;
+        width: 95vw;
+    }
+
+    #logo-1 {
+        top: 10%;
+        left: 6%;
+        font-size: 45px;
+    }
+} 
+
+@media (min-width: 500px) {
+    #container {
+        margin-top: 50%;
+        width: 90vw;
+    }
+
+    #logo-1 {
+        top: 10%;
+        left: 8%;
         font-size: 55px;
     }
-}
-@media (max-width: 600px) {
+} 
+@media (min-width: 600px) {
     #container {
         margin-top: 30%;
         margin-left: 5%;

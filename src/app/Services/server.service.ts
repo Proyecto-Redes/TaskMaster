@@ -10,7 +10,8 @@ import { CompletedTaskI, TaskI } from '../Models/Tasks';
 })
 export class ServerService {
 
-  IP = '192.168.0.211:8080';
+  IP2 = '192.168.0.211:8080';
+  IP = 'localhost:8080';
 
   DATABASE = `http://${this.IP}/proyecto-redes/create-db`;
   URL_REGISTRO = `http://${this.IP}/proyecto-redes/create-user`;

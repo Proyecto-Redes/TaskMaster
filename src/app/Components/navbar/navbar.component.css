@@ -88,6 +88,8 @@ i {
     }
     #weather2 {
         height: auto;
+        font-size: small;
+        text-align: center;
     }
     #quote {
         font-size: 16px;
